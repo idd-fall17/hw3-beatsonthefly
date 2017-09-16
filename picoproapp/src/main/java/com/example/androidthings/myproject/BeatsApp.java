@@ -78,6 +78,26 @@ public class BeatsApp extends SimplePicoPro {
 //        delay(100);
     }
 
+    public void leftArrowKeyPress () {
+        printStringToScreen("LEFT ");
+        println(UART6,"q");
+    }
+
+    public void upArrowKeyPress () {
+        printStringToScreen("UP ");
+        println(UART6,"w");
+    }
+
+    public void rightArrowKeyPress () {
+        printStringToScreen("RIGHT ");
+        println(UART6,"e");
+    }
+
+    public void downArrowKeyPress () {
+        printStringToScreen("DOWN ");
+        println(UART6,"r");
+    }
+
     void digitalEdgeEvent(Gpio pin, boolean value) {
 
         //Q
