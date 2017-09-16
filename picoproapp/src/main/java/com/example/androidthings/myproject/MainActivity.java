@@ -21,7 +21,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.widget.EditText;
 
 import com.google.android.things.pio.PeripheralManagerService;
 
@@ -34,7 +33,7 @@ public class MainActivity extends Activity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     /** CHANGE THE RIGHT-HAND SIDE OF THIS LINE TO THE NAME OF YOUR APPLICATION CLASS **/
-    private SimplePicoPro myBoardApp = new Hw3TemplateApp();
+    private SimplePicoPro myBoardApp = new BeatsApp();
 
     /** DON'T CHANGE THE CODE BELOW - PUT YOUR CODE INTO YOUR APPLICATION CLASS **/
     private Handler handler = new Handler();

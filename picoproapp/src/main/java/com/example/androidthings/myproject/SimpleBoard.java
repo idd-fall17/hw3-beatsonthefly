@@ -121,6 +121,7 @@ public abstract class SimpleBoard {
             Log.e(TAG,"print to uart",e);
         }
     }
+
     void println(UartDevice uart, String s) {
         print(uart,s+"\n");
     }
